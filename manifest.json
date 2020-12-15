@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Amazon Smile Redirect",
+  "version": "0.0.1",
+  "description": "Redirect to Amazon Smile",
+  "background": {
+    "scripts": ["src.js"]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://www.amazon.co.uk/*",
+    "*://www.amazon.it/*"
+  ]
+}
