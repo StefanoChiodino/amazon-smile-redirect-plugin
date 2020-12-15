@@ -8,9 +8,8 @@ browser.webRequest.onBeforeRequest.addListener(
   },
   {
     urls: [
-      "*://www.amazon.co.uk/*",
       "*://www.amazon.com/*",
-      "*://www.amazon.it/*",
+      "*://www.amazon.co.uk/*",
       "*://www.amazon.de/*",
       "*://www.amazon.fr/*",
     ]
