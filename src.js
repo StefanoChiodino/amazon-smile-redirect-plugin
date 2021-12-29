@@ -11,7 +11,6 @@ browser.webRequest.onBeforeRequest.addListener(
       "*://www.amazon.com/*",
       "*://www.amazon.co.uk/*",
       "*://www.amazon.de/*",
-      "*://www.amazon.fr/*",
     ]
   },
   ['blocking']
